@@ -17,7 +17,7 @@ const validArgs = [
 
 void main(List<String> args) async {
   if (args.contains('--version')) {
-    stdout.writeln("v0.0.1+4-alpha");
+    stdout.writeln("v0.0.1+5");
     exit(0);
   }
   if (args.contains('--help')) {
