@@ -32,7 +32,7 @@ session-uptime is a cli tool to check current session duration,
 moreover, this tool is just a part of Nakime Windows Service,
 for a full fledged UI checkout https://github.com/omegaui/nakime
 
-usage: uptime [options]
+usage: session-uptime [options]
 options:
 
 --version                       Prints tool version.

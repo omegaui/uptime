@@ -25,7 +25,7 @@ void main(List<String> args) async {
     stdout.writeln(
         "moreover, this tool is just a part of Nakime Windows Service,\nfor a full fledged UI checkout https://github.com/omegaui/nakime");
     stdout.writeln();
-    stdout.writeln("usage: uptime [options]");
+    stdout.writeln("usage: session-uptime [options]");
     stdout.writeln("options:");
     stdout.writeln();
     stdout.writeln('--version\t\t\tPrints tool version.');
