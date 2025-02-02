@@ -8,9 +8,9 @@ https://github.com/user-attachments/assets/8f6274f1-18b9-4f26-8694-257ce0428bbc
 </div>
 
 ## Description
-As the name goes, 'uptime' is a cli version of '[Nakime](https://github.com/omegaui/nakime)' with capability limited to only accessing the live session uptime.
-If you have already installed Nakime, then, 'uptime' is already installed on your system.
-Open your terminal and run `uptime --version` to verify this.
+As the name goes, 'session-uptime' is a cli version of '[Nakime](https://github.com/omegaui/nakime)' with capability limited to only accessing the live session uptime.
+If you have already installed Nakime, then, 'session-uptime' is already installed on your system.
+Open your terminal and run `session-uptime --version` to verify this.
 
 ## Building from source
 Make sure to have the following version of Dart SDK installed:
@@ -22,13 +22,13 @@ You just need to run either the [compile-exe.ps1](compile-exe.ps1) script
 or the following dart command:
 
 ```sh
-dart compile exe --target-os windows .\lib\main.dart --output uptime.exe
+dart compile exe --target-os windows .\lib\main.dart --output session-uptime.exe
 ```
 
 ## Usage
-Here's the output of `uptime --help` command.
+Here's the output of `session-uptime --help` command.
 ```sh
-uptime is a cli tool to check current session duration,
+session-uptime is a cli tool to check current session duration,
 moreover, this tool is just a part of Nakime Windows Service,
 for a full fledged UI checkout https://github.com/omegaui/nakime
 
