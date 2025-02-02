@@ -34,9 +34,9 @@ void main(List<String> args) async {
     stdout.writeln(
         '--hours\t\t\t\tPrints elapsed hours in decimal format. Example: 2.5 which equals to 2 hours 30 minutes');
     stdout.writeln(
-        '--time\t\t\t\tPrints time at which session was started. Example: 31/25/2025 09:25:21 PM');
+        '--time\t\t\t\tPrints time at which session was started. Example: 31/01/2025 09:25:21 PM');
     stdout.writeln(
-        '--time\t\t\t\tPrints time along with duration. Example: 31/25/2025 09:25:21 PM (1 h 15 m 17 s)');
+        '--time\t\t\t\tPrints time along with duration. Example: 31/01/2025 09:25:21 PM (1 h 15 m 17 s)');
     stdout.writeln(
         '--millisecondsSinceEpoch\tPrints millisecond since epoch. Example: 1738338921000');
     stdout.writeln('--help\t\t\t\tPrints this help message');
@@ -58,11 +58,11 @@ void main(List<String> args) async {
     } else if (args.contains('--hours')) {
       stdout.writeln(duration.asHours);
     } else if (args.contains('--time')) {
-      stdout.writeln(DateFormat('dd/mm/yyyy hh:mm:ss a')
+      stdout.writeln(DateFormat('dd/MM/yyyy hh:mm:ss a')
           .format(LiveSession.systemStartupTime));
     } else if (args.contains('--all')) {
       stdout.writeln(
-          "${DateFormat('dd/mm/yyyy hh:mm:ss a').format(LiveSession.systemStartupTime)} (${duration.timeShort})");
+          "${DateFormat('dd/MM/yyyy hh:mm:ss a').format(LiveSession.systemStartupTime)} (${duration.timeShort})");
     } else if (args.contains('--millisecondsSinceEpoch')) {
       stdout.writeln(LiveSession.systemStartupTime.millisecondsSinceEpoch);
     } else {
