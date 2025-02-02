@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/8f6274f1-18b9-4f26-8694-257ce0428bbc
 </div>
 
 ## Description
-As the name goes, 'uptime' is a cli version of 'Nakime' with capability limited to only accessing the live session uptime.
+As the name goes, 'uptime' is a cli version of '[Nakime](https://github.com/omegaui/nakime)' with capability limited to only accessing the live session uptime.
 If you have already installed Nakime, then, 'uptime' is already installed on your system.
 Open your terminal and run `uptime --version` to verify this.
 
